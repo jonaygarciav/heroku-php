@@ -1,0 +1,13 @@
+language: php
+
+php:
+  - 7.1
+  - 7.2
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: 7a11fade-667d-40ab-bbdc-2c248a9a3421
+  app: jgglez79-php
+  on:
+    repo: jonaygarciav/heroku-php
