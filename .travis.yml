@@ -4,6 +4,8 @@ php:
   - 7.1
   - 7.2
 
+script: echo "Hola"
+
 deploy:
   provider: heroku
   api_key:
